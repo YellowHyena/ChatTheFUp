@@ -1,0 +1,16 @@
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.csproj.AssemblyReference.cache
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.AssemblyInfoInputs.cache
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.AssemblyInfo.cs
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\F.exe
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\F.deps.json
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\F.runtimeconfig.json
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\F.runtimeconfig.dev.json
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\F.dll
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\ref\F.dll
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\bin\Debug\net5.0\F.pdb
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.dll
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\ref\F.dll
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.pdb
+C:\Users\Max\source\repos\YellowHyena\ChatTheFUp\F\obj\Debug\net5.0\F.genruntimeconfig.cache
