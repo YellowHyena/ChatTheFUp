@@ -5,22 +5,27 @@ namespace F
 {
     class Writer
     {
-        //public static void WriteDictionary()
-        //{
-        //    foreach (var Person in PersonClass.PersonInfo)
-        //    {
-        //        Console.WriteLine(Person.Key + " " + Person.Value);
-        //        Console.WriteLine(PersonClass.Nickname);
-        //    }
-        //}
-
         public static void WriteAllContacts()
         {
+            Console.Clear();
+
             Console.WriteLine("-----------------------------------------------");
-            foreach (var contact in Program.ContactList)
+            foreach (var person in PersonClass.ContactList)
             {
-                Console.WriteLine(contact);
+                int index = PersonClass.ContactList.IndexOf(person) +1;
+                Console.WriteLine(index + ":     " + person.Nickname);
+               //AllInfo(person);
             }
+            Console.WriteLine("-----------------------------------------------");
+
+
+        }
+
+        private static void AllInfo(PersonClass person)
+        {
+            Console.WriteLine($"Nickname: {person.Nickname}");
+            Console.WriteLine($"First Name: {person.FirstName}");
+            Console.WriteLine($"Last Name: {person.LastName}");
             Console.WriteLine("-----------------------------------------------");
         }
     }

@@ -1,31 +1,45 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace F
 {
     class Adder
     {
+
+
         public static void AddContact()
         {
-            PersonClass person = new PersonClass();
             Console.Clear();
+
+            PersonClass person = new PersonClass();
+
             Console.Write("Nickname: ");
             person.Nickname = Console.ReadLine();
-            Program.ContactList.Add(person.Nickname);
+            Console.Clear();
+            Console.Write("First Name: ");
+            person.FirstName = Console.ReadLine();
+            ContactsClass.Stylin(person.FirstName);
+            Console.Clear();
+            Console.Write("Last Name: ");
+            person.LastName = Console.ReadLine();
+            Console.Clear();
 
-            PersonClass.PersonInfo.Add("Nickname", person.Nickname);
+            //AddBirthday();
+           // PersonClass.PersonInfo.Add("Nickname", person.Nickname);
 
-            Console.WriteLine($"You added {person.Nickname} to your contact list");
+            Console.WriteLine($"{person.Nickname} has been added to your contact list!");
 
+            PersonClass.ContactList.Add(person);
 
         }
         public static void AddBirthday()
         {
             Console.Clear();
             Console.Write("Write birthday (dd-mm-yyyy): ");
-            PersonClass.Birthday = Console.ReadLine();           
-            DateTime birthday = Convert.ToDateTime(PersonClass.Birthday);
-
-            Console.WriteLine($"da bithtajm is {birthday.Day}/{birthday.Month}/{birthday.Year}");
+            string input = Console.ReadLine();           
+             
+            
+            Console.WriteLine($"da bithtajm is {PersonClass.Birthday.Day}/{PersonClass.Birthday.Month}/{PersonClass.Birthday.Year}");
         }
     }
 }

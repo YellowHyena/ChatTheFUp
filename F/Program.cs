@@ -5,11 +5,9 @@ namespace F
 {
     class Program
     {
-        public static List<string> ContactList = new List<string>();
+        
         static void Main(string[] args)
-        {
-            //Console.WriteLine("Do you want to add a person to your contacts?");
-
+        {           
             //Adder.AddBirthday();
 
             //DateTime now = DateTime.Now;

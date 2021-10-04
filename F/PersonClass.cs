@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace F
 {
@@ -7,7 +8,7 @@ namespace F
         public string Nickname { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string Birthday { get; set; }
+        public static System.DateTime Birthday { get; set; }
         public string Email { get; set; }
         public string LinkedIn { get; set; }
         public string Facebook { get; set; }
@@ -22,7 +23,8 @@ namespace F
         public static bool IsGhosted = false;
         public static bool IsBlocked = false;
 
-        public static Dictionary<string, string> PersonInfo = new();
+        public static List<PersonClass> ContactList = new List<PersonClass>();
+        public static Dictionary<string, string> PersonInfo = new();      
     }
 }
 
