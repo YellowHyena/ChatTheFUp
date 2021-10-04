@@ -5,41 +5,45 @@ namespace F
 {
     class Program
     {
+        public static List<string> ContactList = new List<string>();
         static void Main(string[] args)
         {
-            Console.WriteLine("Vill du lägga till någon?");
+            //Console.WriteLine("Do you want to add a person to your contacts?");
 
-        
-            PersonClass.PersonInfo.Add("Nickname", PersonClass.Nickname);
+            //Adder.AddBirthday();
 
-            if (Console.ReadLine() == "yes")
+            //DateTime now = DateTime.Now;
+            //string strDate = now.ToString("dd-MM-yyyy");
+
+            //Console.WriteLine(strDate);
+
+           // PersonClass.PersonInfo.Add("Nickname", PersonClass.Nickname);
+
+
+
+            while (true)
             {
-                bool anotherOne = true;
+                Console.WriteLine("Please press a command key: " +
+                    "\n(1) Add Contact" +
+                    "\n(2) View Contacts");
 
-                while (anotherOne)
+
+                var command = Console.ReadKey();
+                switch (command.Key)
                 {
-                    anotherOne = false;
-
-                    Adder.AddContact();
-
-                    Console.WriteLine($"These are all your contacts:");
-
-                    Writer.WriteAllContacts();
-
-                    Console.WriteLine("Do you want another one?");
-
-                    if (Console.ReadLine() == "yes")
-                    {
-                        anotherOne = true;
-                    }
+                    case ConsoleKey.D1:
+                        Adder.AddContact();
+                        break;
+                    case ConsoleKey.D2:
+                        Writer.WriteAllContacts();
+                        break;
+                    //case ConsoleKey.D3:
+                    //    Writer.WriteDictionary();
+                    //    break;
 
                 }
-            }
-            else
-            {
-                
-            }
 
+            }
         }
     }
 }

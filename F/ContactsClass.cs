@@ -6,7 +6,7 @@ namespace F
     class ContactsClass
     {
        
-        public static List<string> ContactList = new List<string>();
+        
         
 
 
