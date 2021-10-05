@@ -8,6 +8,7 @@ namespace F
         
         static void Main(string[] args)
         {           
+
             //Adder.AddBirthday();
 
             //DateTime now = DateTime.Now;
@@ -23,7 +24,8 @@ namespace F
             {
                 Console.WriteLine("Please press a command key: " +
                     "\n(1) Add Contact" +
-                    "\n(2) View Contacts");
+                    "\n(2) View Contacts" +
+                    "\n(3) Edit Contacts");
 
 
                 var command = Console.ReadKey();
@@ -35,9 +37,9 @@ namespace F
                     case ConsoleKey.D2:
                         Writer.WriteAllContacts();
                         break;
-                    //case ConsoleKey.D3:
-                    //    Writer.WriteDictionary();
-                    //    break;
+                    case ConsoleKey.D3:
+                        Menus.EditMenu();
+                        break;
 
                 }
 

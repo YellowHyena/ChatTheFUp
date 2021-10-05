@@ -24,7 +24,10 @@ namespace F
         public static bool IsBlocked = false;
 
         public static List<PersonClass> ContactList = new List<PersonClass>();
-        public static Dictionary<string, string> PersonInfo = new();      
+        public static Dictionary<string, string> PersonInfo = new();
+        
+        
+        
     }
 }
 

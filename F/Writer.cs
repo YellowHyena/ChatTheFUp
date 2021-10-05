@@ -12,16 +12,15 @@ namespace F
             Console.WriteLine("-----------------------------------------------");
             foreach (var person in PersonClass.ContactList)
             {
-                int index = PersonClass.ContactList.IndexOf(person) +1;
+                int index = PersonClass.ContactList.IndexOf(person) + 1;
                 Console.WriteLine(index + ":     " + person.Nickname);
-               //AllInfo(person);
+                //AllInfo(person);
             }
             Console.WriteLine("-----------------------------------------------");
 
-
         }
 
-        private static void AllInfo(PersonClass person)
+        private static void WriteMoreInfo(PersonClass person)
         {
             Console.WriteLine($"Nickname: {person.Nickname}");
             Console.WriteLine($"First Name: {person.FirstName}");

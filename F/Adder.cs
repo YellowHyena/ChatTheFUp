@@ -13,8 +13,9 @@ namespace F
 
             PersonClass person = new PersonClass();
 
+            
             Console.Write("Nickname: ");
-            person.Nickname = Console.ReadLine();
+            person.Nickname = Console.ReadLine();            
             Console.Clear();
             Console.Write("First Name: ");
             person.FirstName = Console.ReadLine();
