@@ -8,26 +8,26 @@ namespace F
         public string Nickname { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public static System.DateTime Birthday { get; set; }
+        public System.DateTime Birthday { get; set; }
+        public int Age { get; set; }
         public string Email { get; set; }
+
         public string LinkedIn { get; set; }
         public string Facebook { get; set; }
         public string Instagram { get; set; }
         public string Twitter { get; set; }
         public string Github { get; set; }
-        public string FavFood { get; set; }
+
+        public string LikeFood { get; set; }
         public string HateFood { get; set; }
         public string FavAnimal { get; set; }
-        public string FavMovieGenre { get; set; }
+        public string FavMovGenre { get; set; }
 
-        public static bool IsGhosted = false;
-        public static bool IsBlocked = false;
+
+        public bool IsGhosted { get; set; } = false;
+        public bool IsBlocked { get; set; } = false;
 
         public static List<PersonClass> ContactList = new List<PersonClass>();
-        public static Dictionary<string, string> PersonInfo = new();
-        
-        
-        
     }
 }
 
